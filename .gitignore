@@ -343,3 +343,4 @@ ASALocalRun/
 # *.localdevelopment.json
 
 .vscode
+/src/Slacker.Api/Properties/launchSettings.json

@@ -21,8 +21,6 @@ public abstract class Result<T>
 
     protected bool Succeeded { get; set; }
 
-    private bool Failed => !Succeeded;
-
     public Error Error { get; protected set; }
 
     protected Result(T data)
