@@ -1,9 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>8fff7b2f-2408-442e-932e-a5e1bbd913bc</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,9 +12,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Infinity.Toolkit.FeatureModules" Version="1.0.0" />
+    <PackageReference Include="Infinity.Toolkit.FeatureModules" Version="1.0.1-rc2-20241013.1" />
     <PackageReference Include="Scalar.AspNetCore" Version="1.2.9" />
-    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+    <PackageReference Include="System.Text.Json" Version="9.0.0-rc.2.24473.5" />
+    <PackageReference Include="Azure.Identity" Version="1.12.1" />
+    <PackageReference Include="Azure.Monitor.OpenTelemetry.AspNetCore" Version="1.2.0" />
+    <PackageReference Include="Azure.Monitor.OpenTelemetry.Exporter" Version="1.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Http.Resilience" Version="9.0.0-preview.9.24507.7" />
+    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery" Version="8.2.1" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.9.0" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.9.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.9.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.9.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.9.0" />
   </ItemGroup>
 
 </Project>
